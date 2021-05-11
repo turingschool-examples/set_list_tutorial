@@ -1,5 +1,6 @@
 class ArtistsController < ApplicationController
   def index
+    binding.pry
     @artists = Artist.all
   end
 
@@ -18,6 +19,12 @@ class ArtistsController < ApplicationController
   def update
     artist = Artist.find(params[:id])
     artist.update(artist_params)
+    redirect_to '/artists'
+  end
+
+  def destroy
+    artist = Artist.find(params[:id])
+    artist.destroy
     redirect_to '/artists'
   end
 
