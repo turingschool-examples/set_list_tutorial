@@ -1,0 +1,6 @@
+<%= form_with url: '/artists', method: :post, local: true do |form| %>
+  <%= form.label :name %>
+  <%= form.text_field :name %>
+
+  <%= form.submit "Create Artist" %>
+<% end %>
