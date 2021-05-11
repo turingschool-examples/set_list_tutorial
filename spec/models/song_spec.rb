@@ -27,8 +27,10 @@ RSpec.describe Song, type: :model do
     end
 
     describe '#other_artist_songs' do
-      # Make this test pass WITH Associations
-      expect(@purple.other_artist_songs).to eq([@beret, @other_song])
+      it 'returns the other songs by the artist and does not include itself' do
+        # Make this test pass WITH Associations
+        expect(@purple.other_artist_songs).to eq([@beret, @other_song])
+      end
     end
   end
 end
