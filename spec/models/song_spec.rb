@@ -6,9 +6,9 @@ RSpec.describe Song, type: :model do
   describe 'instance methods' do
     before :each do
       @prince = Artist.create!(name: 'Prince')
-      @purple = @prince.songs.create!(title: 'Purple Rain', length: 845, play_count: 8599)
-      @beret = @prince.songs.create!(title: 'Raspberry Beret', length: 664, play_count: 99)
-      @other_song = @prince.songs.create!(title: 'Another Prince Song', length: 1, play_count: 99)
+      @purple = Song.create!(title: 'Purple Rain', length: 845, play_count: 8599, artist_id: @prince.id)
+      @beret = Song.create!(title: 'Raspberry Beret', length: 664, play_count: 99, artist_id: @prince.id)
+      @other_song = Song.create!(title: 'Another Prince Song', length: 1, play_count: 99, artist_id: @prince.id)
     end
 
     describe '#artist' do
