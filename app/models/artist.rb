@@ -4,4 +4,12 @@ class Artist < ApplicationRecord
   def average_song_length
     self.songs.average(:length)
   end
+
+  def self.newest_first
+    Artist.order(created_at: :desc)
+  end
+
+  def last_updated
+    self.updated_at.strftime("%Y-%m-%d")
+  end
 end
