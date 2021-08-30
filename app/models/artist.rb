@@ -2,7 +2,8 @@ class Artist < ApplicationRecord
   has_many :songs
 
   def average_song_length
-    self.songs.average(:length)
+    binding.pry
+    songs.average(:length)
   end
 
   def self.newest_first
@@ -11,5 +12,10 @@ class Artist < ApplicationRecord
 
   def last_updated
     self.updated_at.strftime("%Y-%m-%d")
+  end
+
+  def self.by_name
+    binding.pry
+    order(:name)
   end
 end

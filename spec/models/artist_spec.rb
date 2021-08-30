@@ -38,5 +38,16 @@ RSpec.describe Artist do
         expect(Artist.newest_first).to eq([pink, prince])
       end
     end
+
+    describe '::by_name' do
+      it 'returns Artists ordered by name alphabetically' do
+        talking_heads = Artist.create!(name: 'Talking Heads')
+        prince = Artist.create!(name: 'Prince')
+        jgb = Artist.create!(name: 'Jerry Garcia Band')
+        crj = Artist.create!(name: 'Carly Rae Jepsen')
+
+        expect(Artist.by_name).to eq([crj, jgb, prince, talking_heads])
+      end
+    end
   end
 end
