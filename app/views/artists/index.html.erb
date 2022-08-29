@@ -4,6 +4,6 @@
 
 <ul id="artists_list">
    <% @artists.each do |artist| %>
-      <li><%= artist.name %> | <%= button_to "Delete #{artist.name}", "/artist/#{artist.id}", method: :delete %></li>
+      <li><%= artist.name %> | <%= button_to "Delete #{artist.name}", "/artists/#{artist.id}", method: :delete %> | <%= link_to "Edit #{artist.name}", "/artists/#{artist.id}/edit" %></li>
    <% end %>
 </ul>

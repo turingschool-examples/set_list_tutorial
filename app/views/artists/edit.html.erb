@@ -1,0 +1,7 @@
+<h1>Edit <%= @artist.name %></h1>
+
+<%= form_with url: "/artists/#{@artist.id}", method: :patch, local: :true do |form| %>
+   <%= form.label :name %>
+   <%= form.text_field :name, required: true %>
+   <%= form.submit "Update #{@artist.name}" %>
+<% end %>
