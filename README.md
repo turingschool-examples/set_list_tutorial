@@ -1,24 +1,44 @@
-# README
+# Set List
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repository serves as an in-class project for Turing's Mod 2 BE program. Through working on this tutorial, students will gain an understanding of and practice the following topics (among others): 
+* Model testing
+* Migrations
+* Feature testing
+* MVC
+* ActiveRecord & SQL
+* Forms
 
-Things you may want to cover:
+## Setup
 
-* Ruby version
+Fork/clone or clone this repo. Then, run the following commands in Terminal: 
+```
+bundle install
+rails db:{drop,create,migrate,seed}
+```
 
-* System dependencies
+You should then be able to access the databases called `set_list_development` and `set_list_test`. 
 
-* Configuration
+## How to Use
+This application starts with schema and corresponding tests for `Artists` and `Songs`. Throughout classes in mod 2, students will be asked to work on adding various features to this application. 
 
-* Database creation
+It is recommended that students use the `main` branch of this repo, and add to it on their own machines. There is no need to submit any pull requests to the original repo, as this is a practice application. 
 
-* Database initialization
+However, students can compare their own work against some completed code, or branch off for the following classes if they wish: 
 
-* How to run the test suite
+| Class | Branch |
+|-------|------|
+| Feature Testing | `feature_testing_practice`  |
+| ActiveRecord Associations | `associations_practice` |
+| SQL and ActiveRecord | `associations_practice` |
+| Forms | `associations_practice` |
+| Class vs Instance Methods | `class_instance_methods_setup` |
+| Many to Many | `many_to_many_practice` |
+| Joins | `many_to_many` |
+| Data Validations | `validations` |
+| Sad Path Testing & Flash Messages | `validations` |
+| Partials | `many_to_many` (no completed branch) |
+| Advanced Routing | `advanced_routing` |
+| Grouping & Aggregating | `advanced_routing` (no completed branch) |
+| Binding Models to Forms | `main` (no completed branch) |
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+_Note: This table is always being updated. Please submit a pull request if something needs changed!_
