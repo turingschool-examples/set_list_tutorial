@@ -20,11 +20,9 @@ rails db:{drop,create,migrate,seed}
 You should then be able to access the databases called `set_list_development` and `set_list_test`. 
 
 ## How to Use
-This application starts with schema and corresponding tests for `Artists` and `Songs`. Throughout classes in mod 2, students will be asked to work on adding various features to this application. 
+This application starts with schema and corresponding tests for `Artists` and `Songs`. Throughout classes in mod 2, students will be asked to work on adding various features to this application. It is recommended that students use the `main` branch of this repo, and add to it on their own machines. There is no need to submit any pull requests to the original repo, as this is a practice application. 
 
-It is recommended that students use the `main` branch of this repo, and add to it on their own machines. There is no need to submit any pull requests to the original repo, as this is a practice application. 
-
-However, students can compare their own work against some completed code, or branch off for the following classes if they wish: 
+Students can also check out the branches in this repo to visit the code at different points in time. The following table lists the classes in mod 2, the branch for where the class starts, and the branch with the completed code from the class.
 
 | Class | Starting Branch | Completed Branch |
 |-------|------|------|
