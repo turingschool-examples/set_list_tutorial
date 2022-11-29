@@ -26,11 +26,11 @@ Students can also check out the branches in this repo to visit the code at diffe
 
 | Class | Starting Branch | Completed Branch |
 |-------|------|------|
-|[Songs Index](https://www.youtube.com/watch?v=At4fD_zkHJU) | none | songs_index|
-| [Songs Show](https://www.youtube.com/watch?v=oZGZEJWt8qQ) | songs_index | songs_show|
-| [ActiveRecord Associations](https://www.youtube.com/watch?v=oOFUnTPC_jU) (homework video) | songs_show | artist_songs_index |
+|[Songs Index](https://www.youtube.com/watch?v=At4fD_zkHJU) | none | `songs_index`|
+| [Songs Show](https://www.youtube.com/watch?v=oZGZEJWt8qQ) | `songs_index` | `songs_show`|
+| [ActiveRecord Associations](https://www.youtube.com/watch?v=oOFUnTPC_jU) (homework video) | `songs_show` | `artist_songs_index` |
 | [Feature Testing](https://backend.turing.edu/module2/lessons/feature_testing_2) | `feature_testing_practice`  |
-| ActiveRecord Associations (live class) | `associations_practice` |
+| ActiveRecord Associations (live class) | `associations_practice` | `associations_practice_solutions ` |
 | SQL and ActiveRecord | `associations_practice` |
 | Forms | `associations_practice` |
 | Class vs Instance Methods | `class_instance_methods_setup` |
