@@ -13,7 +13,7 @@ RSpec.describe Song, type: :model do
 
     describe '#artist' do
       it 'returns the associated artist object' do
-        # First, Comment out the has_many :songs Association from the Artist model
+        # First, Comment out the belongs_to :artist Association from the Song model
         # Then, make this test pass WITHOUT using Associations
         expect(@purple.artist).to eq(@prince)
       end
