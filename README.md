@@ -26,8 +26,10 @@ It is recommended that students use the `main` branch of this repo, and add to i
 
 However, students can compare their own work against some completed code, or branch off for the following classes if they wish: 
 
-| Class | Branch |
-|-------|------|
+| Class | Starting Branch | Completed Branch |
+|-------|------|------|
+|[Songs Index](https://www.youtube.com/watch?v=At4fD_zkHJU) | none | songs_index|
+| [Songs Show](https://www.youtube.com/watch?v=oZGZEJWt8qQ) | songs_index | songs_show|
 | Feature Testing | `feature_testing_practice`  |
 | ActiveRecord Associations | `associations_practice` |
 | SQL and ActiveRecord | `associations_practice` |
