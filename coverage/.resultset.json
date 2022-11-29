@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/jamison/Desktop/jamison/mod_2/example_videos/set_list_tutorial/config/environment.rb": {
+      "/Users/brianzanti/turing/2module/classwork/set_list_tutorial/config/environment.rb": {
         "lines": [
           null,
           1,
@@ -10,23 +10,12 @@
           1
         ]
       },
-      "/Users/jamison/Desktop/jamison/mod_2/example_videos/set_list_tutorial/config/application.rb": {
+      "/Users/brianzanti/turing/2module/classwork/set_list_tutorial/config/application.rb": {
         "lines": [
           1,
           null,
           1,
           null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
           null,
           null,
           1,
@@ -40,14 +29,11 @@
           null,
           null,
           null,
-          null,
-          null,
-          1,
           null,
           null
         ]
       },
-      "/Users/jamison/Desktop/jamison/mod_2/example_videos/set_list_tutorial/config/boot.rb": {
+      "/Users/brianzanti/turing/2module/classwork/set_list_tutorial/config/boot.rb": {
         "lines": [
           1,
           null,
@@ -55,7 +41,7 @@
           1
         ]
       },
-      "/Users/jamison/Desktop/jamison/mod_2/example_videos/set_list_tutorial/config/environments/test.rb": {
+      "/Users/brianzanti/turing/2module/classwork/set_list_tutorial/config/environments/test.rb": {
         "lines": [
           1,
           null,
@@ -105,7 +91,7 @@
           null
         ]
       },
-      "/Users/jamison/Desktop/jamison/mod_2/example_videos/set_list_tutorial/config/initializers/application_controller_renderer.rb": {
+      "/Users/brianzanti/turing/2module/classwork/set_list_tutorial/config/initializers/application_controller_renderer.rb": {
         "lines": [
           null,
           null,
@@ -117,7 +103,7 @@
           null
         ]
       },
-      "/Users/jamison/Desktop/jamison/mod_2/example_videos/set_list_tutorial/config/initializers/assets.rb": {
+      "/Users/brianzanti/turing/2module/classwork/set_list_tutorial/config/initializers/assets.rb": {
         "lines": [
           null,
           null,
@@ -135,7 +121,7 @@
           null
         ]
       },
-      "/Users/jamison/Desktop/jamison/mod_2/example_videos/set_list_tutorial/config/initializers/backtrace_silencers.rb": {
+      "/Users/brianzanti/turing/2module/classwork/set_list_tutorial/config/initializers/backtrace_silencers.rb": {
         "lines": [
           null,
           null,
@@ -146,7 +132,7 @@
           null
         ]
       },
-      "/Users/jamison/Desktop/jamison/mod_2/example_videos/set_list_tutorial/config/initializers/content_security_policy.rb": {
+      "/Users/brianzanti/turing/2module/classwork/set_list_tutorial/config/initializers/content_security_policy.rb": {
         "lines": [
           null,
           null,
@@ -175,7 +161,7 @@
           null
         ]
       },
-      "/Users/jamison/Desktop/jamison/mod_2/example_videos/set_list_tutorial/config/initializers/cookies_serializer.rb": {
+      "/Users/brianzanti/turing/2module/classwork/set_list_tutorial/config/initializers/cookies_serializer.rb": {
         "lines": [
           null,
           null,
@@ -184,7 +170,7 @@
           1
         ]
       },
-      "/Users/jamison/Desktop/jamison/mod_2/example_videos/set_list_tutorial/config/initializers/filter_parameter_logging.rb": {
+      "/Users/brianzanti/turing/2module/classwork/set_list_tutorial/config/initializers/filter_parameter_logging.rb": {
         "lines": [
           null,
           null,
@@ -192,7 +178,7 @@
           1
         ]
       },
-      "/Users/jamison/Desktop/jamison/mod_2/example_videos/set_list_tutorial/config/initializers/inflections.rb": {
+      "/Users/brianzanti/turing/2module/classwork/set_list_tutorial/config/initializers/inflections.rb": {
         "lines": [
           null,
           null,
@@ -212,7 +198,7 @@
           null
         ]
       },
-      "/Users/jamison/Desktop/jamison/mod_2/example_videos/set_list_tutorial/config/initializers/mime_types.rb": {
+      "/Users/brianzanti/turing/2module/classwork/set_list_tutorial/config/initializers/mime_types.rb": {
         "lines": [
           null,
           null,
@@ -220,7 +206,49 @@
           null
         ]
       },
-      "/Users/jamison/Desktop/jamison/mod_2/example_videos/set_list_tutorial/config/initializers/wrap_parameters.rb": {
+      "/Users/brianzanti/turing/2module/classwork/set_list_tutorial/config/initializers/new_framework_defaults_5_2.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/brianzanti/turing/2module/classwork/set_list_tutorial/config/initializers/wrap_parameters.rb": {
         "lines": [
           null,
           null,
@@ -238,7 +266,7 @@
           null
         ]
       },
-      "/Users/jamison/Desktop/jamison/mod_2/example_videos/set_list_tutorial/config/routes.rb": {
+      "/Users/brianzanti/turing/2module/classwork/set_list_tutorial/config/routes.rb": {
         "lines": [
           1,
           null,
@@ -247,34 +275,34 @@
           null
         ]
       },
-      "/Users/jamison/Desktop/jamison/mod_2/example_videos/set_list_tutorial/app/helpers/application_helper.rb": {
+      "/Users/brianzanti/turing/2module/classwork/set_list_tutorial/app/helpers/application_helper.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "/Users/jamison/Desktop/jamison/mod_2/example_videos/set_list_tutorial/app/models/artist.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/jamison/Desktop/jamison/mod_2/example_videos/set_list_tutorial/app/models/application_record.rb": {
+      "/Users/brianzanti/turing/2module/classwork/set_list_tutorial/app/models/artist.rb": {
         "lines": [
           1,
           1,
           null
         ]
       },
-      "/Users/jamison/Desktop/jamison/mod_2/example_videos/set_list_tutorial/app/models/song.rb": {
+      "/Users/brianzanti/turing/2module/classwork/set_list_tutorial/app/models/application_record.rb": {
         "lines": [
           1,
           1,
           null
         ]
       },
-      "/Users/jamison/Desktop/jamison/mod_2/example_videos/set_list_tutorial/app/controllers/songs_controller.rb": {
+      "/Users/brianzanti/turing/2module/classwork/set_list_tutorial/app/models/song.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/brianzanti/turing/2module/classwork/set_list_tutorial/app/controllers/songs_controller.rb": {
         "lines": [
           1,
           1,
@@ -282,18 +310,18 @@
           null,
           null,
           1,
-          1,
+          2,
           null,
           null
         ]
       },
-      "/Users/jamison/Desktop/jamison/mod_2/example_videos/set_list_tutorial/app/controllers/application_controller.rb": {
+      "/Users/brianzanti/turing/2module/classwork/set_list_tutorial/app/controllers/application_controller.rb": {
         "lines": [
           1,
           null
         ]
       }
     },
-    "timestamp": 1620322346
+    "timestamp": 1669760605
   }
 }
