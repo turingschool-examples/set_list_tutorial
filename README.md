@@ -1,24 +1,13 @@
-# README
+# ActiveRecord Associations Practice
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This branch includes practice exercises for ActiveRecord associations. Work on the exercises in this order:
 
-Things you may want to cover:
+1. `spec/models/song_spec.rb`
+1. `spec/models/artist_spec.rb`
+1. `spec/models/record_label_spec.rb`
 
-* Ruby version
+Start by running one test at a time. For the first test, you should run `bundle exec rspec spec/models/song_spec.rb:15`. Including the line number of the test will help you stay focused on one exercise at a time.
 
-* System dependencies
+Avoid running all the tests at once (`bundle exec rspec`). This will error out since the `RecordLabel` class hasn't been created yet.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Make sure to read the comments in each test. They include instructions on how you should approach the problem.
