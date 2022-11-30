@@ -1,0 +1,6 @@
+<h1>Songs Index Page, hello :)</h1>
+
+<% @songs.each do |song| %>
+   <p><%= song.title %></p>
+   <p>Play count: <%= song.play_count %></p>
+<% end %>
