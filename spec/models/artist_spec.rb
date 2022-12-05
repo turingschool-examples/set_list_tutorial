@@ -27,6 +27,36 @@ RSpec.describe Artist do
         expect(artist.last_updated).to eq(updated_time.strftime("%Y-%m-%d"))
       end
     end
+
+    describe "#songs_alphabetically" do
+      before :each do
+        @prince = Artist.create!(name: 'Prince')
+        @purple = @prince.songs.create!(title: 'Purple Rain', length: 845, play_count: 8599)
+        @beret = @prince.songs.create!(title: 'Raspberry Beret', length: 664, play_count: 99)
+        @other_song = @prince.songs.create!(title: 'Another Prince Song', length: 1, play_count: 99)
+      end
+
+      it "Returns all of an artist's songs sorted by title alphabetically" do
+        expect(@prince.songs_alphabetically).to eq([@other_song, @purple, @beret])
+      end
+
+    end
+
+    describe "#shortest_songs(x)" do
+      before :each do
+        @prince = Artist.create!(name: 'Prince')
+        @purple = @prince.songs.create!(title: 'Purple Rain', length: 845, play_count: 8599)
+        @beret = @prince.songs.create!(title: 'Raspberry Beret', length: 664, play_count: 99)
+        @other_song = @prince.songs.create!(title: 'Another Prince Song', length: 1, play_count: 99)
+      end
+      it "Returns the x shortest songs for an artist, where x is an argument for the method" do
+        expect(@prince.shortest_songs(2)).to eq([@other_song, @beret])
+        expect(@prince.shortest_songs(3)).to eq([@other_song, @beret, @purple])
+        expect(@prince.shortest_songs(1)).to eq([@other_song])
+      end
+
+    end
+
   end
 
   describe 'class methods' do

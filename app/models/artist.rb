@@ -2,7 +2,6 @@ class Artist < ApplicationRecord
   has_many :songs
 
   def average_song_length
-    binding.pry
     songs.average(:length)
   end
 
@@ -15,7 +14,20 @@ class Artist < ApplicationRecord
   end
 
   def self.by_name
-    binding.pry
     order(:name)
   end
+
+  def songs_alphabetically
+    songs.order(:title)
+  end
+
+  def shortest_songs(num)
+    songs.order(length: :asc).limit(num)
+  end
+
+  def num_songs_artist
+    songs.where("play_count >= 1").where("length > 0")
+  end
+
+ 
 end
