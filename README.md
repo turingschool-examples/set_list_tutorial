@@ -33,7 +33,7 @@ Students can also check out the branches in this repo to visit the code at diffe
 | ActiveRecord Associations (live class) | [associations_practice](https://github.com/turingschool-examples/set_list_tutorial/tree/associations_practice) | [associations_practice_solutions](https://github.com/turingschool-examples/set_list_tutorial/tree/associations_practice_solutions) |
 | SQL and ActiveRecord | `associations_practice` |
 | Forms | `associations_practice` |
-| Class vs Instance Methods | `class_instance_methods_setup` |
+| Class vs Instance Methods | [class_instance_methods_setup](https://github.com/turingschool-examples/set_list_tutorial/tree/class_instance_methods_setup) | [class_instance_methods_solutions](https://github.com/turingschool-examples/set_list_tutorial/tree/class_instance_methods_solutions)
 | Many to Many | `many_to_many_practice` |
 | Joins | `many_to_many` |
 | Data Validations | `validations` |
