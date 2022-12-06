@@ -32,7 +32,7 @@ Students can also check out the branches in this repo to visit the code at diffe
 | [Feature Testing](https://backend.turing.edu/module2/lessons/feature_testing_2) | [feature_testing_practice](https://github.com/turingschool-examples/set_list_tutorial/tree/feature_testing_practice)  | [feature_testing_solutions](https://github.com/turingschool-examples/set_list_tutorial/tree/feature_testing_solutions)
 | ActiveRecord Associations (live class) | [associations_practice](https://github.com/turingschool-examples/set_list_tutorial/tree/associations_practice) | [associations_practice_solutions](https://github.com/turingschool-examples/set_list_tutorial/tree/associations_practice_solutions) |
 | SQL and ActiveRecord | `associations_practice` |
-| [Forms (homework video)](https://www.youtube.com/watch?v=VNHriUP7zKE&list=PL1Y67f0xPzdMpqo5GG-P8oVd-OvkNMSAN&index=5) | `associations_practice` |
+| [Forms](https://www.youtube.com/watch?v=VNHriUP7zKE&list=PL1Y67f0xPzdMpqo5GG-P8oVd-OvkNMSAN&index=5) (homework video) | `associations_practice` |
 | Class vs Instance Methods | [class_instance_methods_setup](https://github.com/turingschool-examples/set_list_tutorial/tree/class_instance_methods_setup) | [class_instance_methods_solutions](https://github.com/turingschool-examples/set_list_tutorial/tree/class_instance_methods_solutions)
 | Many to Many | `many_to_many_practice` |
 | Joins | `many_to_many` |
