@@ -35,7 +35,7 @@ Students can also check out the branches in this repo to visit the code at diffe
 | [Forms](https://www.youtube.com/watch?v=VNHriUP7zKE&list=PL1Y67f0xPzdMpqo5GG-P8oVd-OvkNMSAN&index=5) (homework video) | [artist_songs_index](https://github.com/turingschool-examples/set_list_tutorial/tree/artist_songs_index) | [artist_new](https://github.com/turingschool-examples/set_list_tutorial/tree/artist_new) |
 | [Class vs Instance Methods](https://backend.turing.edu/module2/lessons/class_vs_instance_methods) | [class_instance_methods_setup](https://github.com/turingschool-examples/set_list_tutorial/tree/class_instance_methods_setup) | [class_instance_methods_solutions](https://github.com/turingschool-examples/set_list_tutorial/tree/class_instance_methods_solutions)
 | [Many to Many](https://backend.turing.edu/module2/lessons/many_to_many) | [many_to_many_practice](https://github.com/turingschool-examples/set_list_tutorial/tree/many_to_many_practice) | [many_to_many](https://github.com/turingschool-examples/set_list_tutorial/tree/many_to_many)
-| Joins | [many_to_many](https://github.com/turingschool-examples/set_list_tutorial/tree/many_to_many) |
+| [Joins](https://backend.turing.edu/module2/lessons/joins) | [many_to_many](https://github.com/turingschool-examples/set_list_tutorial/tree/many_to_many) |
 | Data Validations | `validations` |
 | Sad Path Testing & Flash Messages | `validations` |
 | Partials | `many_to_many` (no completed branch) |
