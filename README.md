@@ -36,8 +36,8 @@ Students can also check out the branches in this repo to visit the code at diffe
 | [Class vs Instance Methods](https://backend.turing.edu/module2/lessons/class_vs_instance_methods) | [class_instance_methods_setup](https://github.com/turingschool-examples/set_list_tutorial/tree/class_instance_methods_setup) | [class_instance_methods_solutions](https://github.com/turingschool-examples/set_list_tutorial/tree/class_instance_methods_solutions)
 | [Many to Many](https://backend.turing.edu/module2/lessons/many_to_many) | [many_to_many_practice](https://github.com/turingschool-examples/set_list_tutorial/tree/many_to_many_practice) | [many_to_many](https://github.com/turingschool-examples/set_list_tutorial/tree/many_to_many)
 | [Joins](https://backend.turing.edu/module2/lessons/joins) | [many_to_many](https://github.com/turingschool-examples/set_list_tutorial/tree/many_to_many) |
-| Data Validations | `validations` |
-| Sad Path Testing & Flash Messages | `validations` |
+| [Data Validations](https://backend.turing.edu/module2/lessons/data_validation) | [validations](https://github.com/turingschool-examples/set_list_tutorial/tree/validations) |
+| Sad Path Testing & Flash Messages | [sad_path_setup](https://github.com/turingschool-examples/set_list_tutorial/tree/sad_path_setup) |
 | Partials | `many_to_many` (no completed branch) |
 | Advanced Routing | `advanced_routing` |
 | Grouping & Aggregating | `advanced_routing` (no completed branch) |
