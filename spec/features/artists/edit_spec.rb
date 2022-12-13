@@ -35,4 +35,18 @@ RSpec.describe 'the artist edit' do
     expect(current_path).to eq("/artists")
     expect(page).to have_content('Prince')
   end
+
+  it 'cannot edit an artist name to be blank' do
+    artist = Artist.create!(name: 'Prince')
+
+    visit "/artists"
+
+    click_button 'Edit Prince'
+
+    fill_in 'Name', with: ''
+    click_button 'Update Artist'
+
+    expect(page).to have_button('Update Artist')
+    expect(page).to have_content("Name can't be blank")
+  end
 end

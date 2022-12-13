@@ -36,7 +36,7 @@ RSpec.describe 'the Artist creation' do
     visit '/artists/new'
 
     click_button('Create Artist')
-    expect(page).to have_content('Missing required information')
+    expect(page).to have_content("Name can't be blank")
 
     expect(page).to have_button('Create Artist')
   end

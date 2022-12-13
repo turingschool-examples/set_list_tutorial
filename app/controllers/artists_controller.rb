@@ -15,7 +15,7 @@ class ArtistsController < ApplicationController
       #happy path
       redirect_to "/artists"
     else
-      @error_msg = "Missing required information"
+      flash[:error] = artist.errors.full_messages.to_sentence
       render :new
     end
   end
@@ -26,9 +26,13 @@ class ArtistsController < ApplicationController
   end
 
   def update
-    artist = Artist.find(params[:id])
-    artist.update(artist_params)
-    redirect_to '/artists'
+    @artist = Artist.find(params[:id])
+    if @artist.update(artist_params)
+      redirect_to '/artists'
+    else
+      flash[:error] = @artist.errors.full_messages.to_sentence
+      render :edit
+    end
   end
 
   def destroy
