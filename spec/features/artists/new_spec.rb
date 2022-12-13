@@ -25,4 +25,20 @@ RSpec.describe 'the Artist creation' do
     expect(current_path).to eq("/artists")
     expect(page).to have_content("Prince")
   end
+
+#   As a Visitor
+# I visit the new artist page
+# And click 'Create Artist' without filling in a name
+# Then I see a message telling me that I am missing required information
+# And I still see the new artist form
+
+  it 'shows the user a message if they do not fill in the form' do
+    visit '/artists/new'
+
+    click_button('Create Artist')
+    expect(page).to have_content('Missing required information')
+
+    expect(page).to have_button('Create Artist')
+  end
+
 end
