@@ -38,7 +38,7 @@ Students can also check out the branches in this repo to visit the code at diffe
 | [Joins](https://backend.turing.edu/module2/lessons/joins) | [many_to_many](https://github.com/turingschool-examples/set_list_tutorial/tree/many_to_many) |
 | [Data Validations](https://backend.turing.edu/module2/lessons/data_validation) | [validations](https://github.com/turingschool-examples/set_list_tutorial/tree/validations) |
 | [Sad Path Testing & Flash Messages](https://backend.turing.edu/module2/lessons/sad_path_and_flash) | [sad_path_setup](https://github.com/turingschool-examples/set_list_tutorial/tree/sad_path_setup) | [sad_path_complete](https://github.com/turingschool-examples/set_list_tutorial/tree/sad_path_complete)
-| Partials | `many_to_many` (no completed branch) |
+| [Partials](https://backend.turing.edu/module2/lessons/partials) | [partials](https://github.com/turingschool-examples/set_list_tutorial/tree/partials) | [partials_solutions](https://github.com/turingschool-examples/set_list_tutorial/tree/partials_solutions)
 | Advanced Routing | `advanced_routing` |
 | Grouping & Aggregating | `advanced_routing` (no completed branch) |
 | Binding Models to Forms | `main` (no completed branch) |
