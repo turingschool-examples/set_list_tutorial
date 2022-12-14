@@ -1,5 +1,1 @@
-<%= form_with url: "/artists/#{@artist.id}", method: :patch, local: true do |form| %>
-  <%= form.label :name %>
-  <%= form.text_field :name %>
-  <%= form.submit 'Update Artist' %>
-<% end %>
+<%= render partial: "form", locals: {path: "/artists/#{@artist.id}", method: :patch, button_text: "Update Artist"} %>
