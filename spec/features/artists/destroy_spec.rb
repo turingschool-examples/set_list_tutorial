@@ -10,7 +10,7 @@ RSpec.describe 'destroying an artist' do
   it 'can delete the artist from the index page' do
     artist = Artist.create(name: 'Prince')
 
-    visit '/artists'
+    visit artists_path
 
     click_button 'Delete'
 

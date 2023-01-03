@@ -13,7 +13,7 @@ RSpec.describe 'the artist edit' do
   it 'links to the edit page' do
     artist = Artist.create!(name: 'Prince')
 
-    visit '/artists'
+    visit artists_path
 
     click_button "Edit #{artist.name}"
 
@@ -23,7 +23,7 @@ RSpec.describe 'the artist edit' do
   it 'can edit the artist' do
     artist = Artist.create!(name: 'Princ')
 
-    visit "/artists"
+    visit artists_path
 
     expect(page).to have_content('Princ')
 
