@@ -1,7 +1,7 @@
 <h1>New Song</h1>
 
 <%= form_with model: @song, local: true do |form| %>
-   <%= form.label :title %>
+   <%= form.label :title, "Song title" %>
    <%= form.text_field :title %>
    <%= form.label :length %>
    <%= form.text_field :length %>

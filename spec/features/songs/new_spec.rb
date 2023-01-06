@@ -6,8 +6,7 @@ RSpec.describe "New song form", type: :feature do
       describe "When I visit '/songs/new'" do
          it "I see a form with fields for title, length, play_count, and artist_id" do
             visit new_song_path
-
-            expect(page).to have_field "song[title]"
+            expect(page).to have_field "Song title"
             expect(page).to have_field "song[length]"
             expect(page).to have_field "song[play_count]"
          end
