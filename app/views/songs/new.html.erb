@@ -1,0 +1,15 @@
+<h1>New Song</h1>
+
+<%= form_with model: @song, local: true do |form| %>
+   <%= form.label :title %>
+   <%= form.text_field :title %>
+   <%= form.label :length %>
+   <%= form.text_field :length %>
+   <%= form.label :play_count %>
+   <%= form.text_field :play_count %>
+   <%= form.label :artist_id %>
+   <%= form.text_field :artist_id %>
+
+   <%= form.submit %>
+   
+<% end %>
