@@ -41,6 +41,6 @@ Students can also check out the branches in this repo to visit the code at diffe
 | [Partials](https://backend.turing.edu/module2/lessons/partials) | [partials](https://github.com/turingschool-examples/set_list_tutorial/tree/partials) | [partials_solutions](https://github.com/turingschool-examples/set_list_tutorial/tree/partials_solutions)
 | [Advanced Routing](https://backend.turing.edu/module2/lessons/rails_resources) | [advanced_routing](https://github.com/turingschool-examples/set_list_tutorial/tree/advanced_routing) | [advanced_routing_solutions](https://github.com/turingschool-examples/set_list_tutorial/tree/advanced_routing_solutions) |
 | Grouping & Aggregating | `advanced_routing` (no completed branch) |
-| Binding Models to Forms | `main` (no completed branch) |
+| Binding Models to Forms | [advanced_routing_solutions] | [binding_models_solutions](https://github.com/turingschool-examples/set_list_tutorial/tree/binding_models_solutions)
 
 _Note: This table is always being updated. Please submit a pull request if something needs changed!_
