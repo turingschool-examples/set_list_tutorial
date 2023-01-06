@@ -40,7 +40,7 @@ Students can also check out the branches in this repo to visit the code at diffe
 | [Sad Path Testing & Flash Messages](https://backend.turing.edu/module2/lessons/sad_path_and_flash) | [sad_path_setup](https://github.com/turingschool-examples/set_list_tutorial/tree/sad_path_setup) | [sad_path_complete](https://github.com/turingschool-examples/set_list_tutorial/tree/sad_path_complete)
 | [Partials](https://backend.turing.edu/module2/lessons/partials) | [partials](https://github.com/turingschool-examples/set_list_tutorial/tree/partials) | [partials_solutions](https://github.com/turingschool-examples/set_list_tutorial/tree/partials_solutions)
 | [Advanced Routing](https://backend.turing.edu/module2/lessons/rails_resources) | [advanced_routing](https://github.com/turingschool-examples/set_list_tutorial/tree/advanced_routing) | [advanced_routing_solutions](https://github.com/turingschool-examples/set_list_tutorial/tree/advanced_routing_solutions) |
-| Grouping & Aggregating | `advanced_routing` (no completed branch) |
-| Binding Models to Forms | [advanced_routing](https://github.com/turingschool-examples/set_list_tutorial/tree/advanced_routing) | [binding_models_solutions](https://github.com/turingschool-examples/set_list_tutorial/tree/binding_models_solutions)
+| [Grouping & Aggregating](https://backend.turing.edu/module2/lessons/grouping_and_aggregating) | `advanced_routing` (no completed branch) |
+| [Binding Models to Forms](https://backend.turing.edu/module2/lessons/form_with) | [advanced_routing](https://github.com/turingschool-examples/set_list_tutorial/tree/advanced_routing) | [binding_models_solutions](https://github.com/turingschool-examples/set_list_tutorial/tree/binding_models_solutions)
 
 _Note: This table is always being updated. Please submit a pull request if something needs changed!_
