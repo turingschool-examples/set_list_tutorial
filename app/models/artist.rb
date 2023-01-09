@@ -20,4 +20,8 @@ class Artist < ApplicationRecord
   def self.top_by_total_plays(limit)
     self.joins(:songs).group(:id).select('artists.*, sum(songs.play_count) as total_plays').order('total_plays desc').limit(limit)
   end
+
+  def self.on_three_playlists
+    self.joins(:playlists).group(:id).having('count(distinct playlists.id) > ?', 2)
+  end
 end

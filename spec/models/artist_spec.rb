@@ -52,6 +52,10 @@ RSpec.describe Artist do
     
     describe '.on_three_playlists' do
       it 'returns any artists that have songs on 3 playlists' do
+        song = @rtj.songs.create(title: 'test', play_count: 123123, length: 12322)
+        @chill_evening.songs << song
+        @chill_evening.songs << @legend
+        
         expect(Artist.on_three_playlists).to eq([@prince])
       end
     end
