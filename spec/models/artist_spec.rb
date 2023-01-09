@@ -55,5 +55,11 @@ RSpec.describe Artist do
         expect(Artist.on_three_playlists).to eq([@prince])
       end
     end
+
+    describe '.with_song_play_count' do
+      it 'returns artists with songs with a play_count over a given threshold' do
+        expect(Artist.with_song_play_count(1_000_000).sort).to eq([@rtj, @billie, @lcd].sort)
+      end
+    end
   end
 end
