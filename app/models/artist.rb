@@ -24,4 +24,8 @@ class Artist < ApplicationRecord
   def self.on_three_playlists
     self.joins(:playlists).group(:id).having('count(distinct playlists.id) > ?', 2)
   end
+  
+  def self.with_song_play_count(threshold)
+    joins(:songs).where('songs.play_count >= ?', threshold).distinct
+  end
 end
