@@ -41,6 +41,7 @@ group :development, :test do
   gem 'launchy' # save_and_open_page
   gem 'simplecov'
   gem 'shoulda-matchers', '~> 4.0'
+  gem 'net-http'
 end
 
 group :development do
