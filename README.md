@@ -1,4 +1,4 @@
-# Set List
+# Set List Tutorial
 
 
 This repository serves as an in-class project for Turing's Mod 2 BE program. Through working on this tutorial, students will gain an understanding of and practice the following topics (among others): 
