@@ -11,7 +11,7 @@ This repository serves as an in-class project for Turing's Mod 2 BE program. Thr
 
 ## Setup
 
-Clone (you don't need to fork) this repo to your local. Then, run the following commands in Terminal: 
+Clone (__don't fork__) this repo to your local. Then, run the following commands in Terminal: 
 ```
 bundle install
 rails db:{drop,create,migrate,seed}
@@ -22,12 +22,22 @@ You should then be able to access the databases called `set_list_development` an
 ## How to Use
 This application starts with schema and corresponding tests for `Artists` and `Songs`. Throughout classes in mod 2, students will be asked to work on adding various features to this application. It is recommended that students use the `main` branch of this repo, and add to it on their own machines. There is no need to submit any pull requests to the original repo, as this is a practice application. 
 
-Students can also check out the branches in this repo to visit the code at different points in time. The following table lists the classes in mod 2, the branch for where the class starts, and the branch with the completed code from the class.
+Students can also check out the branches in this repo to visit the code and add their work there at different points in time. The following table lists the classes in mod 2, the branch for where the class starts, and the branch with the completed code from the class.
 
 ### Warning
 Note: ___we don't recommend **forking** this repo___, as there are many branches that you'll lose access to if you fork. Since this is a tutorial, you can reference the many branches in this repo for the class you're currently working on. Forking will not bring these branches with your forked copy. 
 
-Also, this tutorial is most useful going class-by-class, not necessarily done in addition to any intermission work. If you have context/prior knowleddge for the topics explored in this repository, you can use it to practice those topics. Generally, we advise students to wait until the topic comes up in a project or class to explore the branches of this repo.
+Also, this tutorial is most useful going class-by-class, not necessarily done in addition to any intermission work. If you have context/prior knowledge for the topics explored in this repository, you can use it to practice those topics. Generally, we advise students to wait until the topic comes up in a project or class to explore the branches of this repo.
+
+To switch branches, in Terminal:
+```
+git checkout {name_of_branch}
+```
+
+To see all branches available on the remote, in Terminal:
+```
+git branch -a
+```
 
 
 ## Branch Directory
