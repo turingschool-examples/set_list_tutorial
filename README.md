@@ -11,4 +11,5 @@ Start by running one test at a time. For the first test, you should run `bundle 
 
 Avoid running all the tests at once (`bundle exec rspec`). This will error out since the `RecordLabel` class hasn't been created yet.
 
-Make sure to read the comments in each test. They include instructions on how you should approach the problem.
+Make sure to read the comments in each test. They include instructions on how you should approach the problem. 
+In addition, let any errors guide your implementation. If you get an error, **be sure to read the entire error message**!
